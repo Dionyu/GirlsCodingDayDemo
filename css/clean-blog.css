@@ -6,7 +6,9 @@
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
-  color: #333333;
+  color: rgb(243, 241, 241);
+  background-color: rgb(243, 249, 250);
+
 }
 p {
   line-height: 1.5;
@@ -27,7 +29,7 @@ h6 {
 a {
   color: #333333;
 }
-a:hover,
+a,
 a:focus {
   color: #0085A1;
 }
@@ -45,7 +47,10 @@ hr.small {
   border-width: 4px;
   border-color: white;
 }
-.navbar-custom {
+.navbar {
+  color:rgb(236, 29, 29) !important;
+}
+  .navbar-custom {
   position: absolute;
   top: 0;
   left: 0;
